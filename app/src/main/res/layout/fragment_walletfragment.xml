@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".walletfragment"
+    android:background="@drawable/gradient_background"
+    android:orientation="vertical"
+    >
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="20dp"
+        >
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/axe"
+            android:layout_margin="30dp"
+            android:id="@+id/ivCancel"
+            />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Add New Wallet"
+            android:textStyle="bold"
+            android:textSize="30sp"
+            android:textColor="@color/white"
+            android:layout_margin="10dp"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:layout_margin="30dp"
+        >
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:cardCornerRadius="20dp"
+
+            >
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:inputType="textEmailAddress"
+                android:padding="20dp"
+                android:id="@+id/etWallet"
+                android:text="Type here"
+                android:gravity="center"
+                android:layout_marginLeft="20dp"
+                android:drawableLeft="@drawable/walet"
+
+
+                >
+
+
+            </com.google.android.material.textfield.TextInputEditText>
+        </androidx.cardview.widget.CardView>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/btn2"
+            android:text="Add"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:layout_marginTop="200dp"
+            android:id="@+id/btnAdd"
+            android:drawableRight="@drawable/baseline_arrow_right_24"
+            android:textSize="20dp"
+            android:padding="16dp"
+
+
+
+            />
+
+
+    </LinearLayout>
+</FrameLayout>
+
+
+
+

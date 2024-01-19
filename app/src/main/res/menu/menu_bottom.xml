@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/bookmark"
+        android:title="Bookmark"
+        android:icon="@drawable/bookmark"
+        >
+
+    </item>
+
+    <item
+        android:id="@+id/Square"
+        android:title="Square"
+        android:icon="@drawable/square"
+        >
+
+    </item>
+
+
+
+
+    <item
+        android:id="@+id/home"
+        android:title="Home"
+        android:icon="@drawable/home"
+        >
+
+    </item>
+    <item
+        android:id="@+id/wallet"
+        android:title="Wallet"
+        android:icon="@drawable/walet"
+        >
+
+    </item>
+
+    <item
+        android:id="@+id/graph"
+        android:title="Graphing"
+        android:icon="@drawable/flat">
+
+    </item>
+
+
+
+
+
+</menu>
